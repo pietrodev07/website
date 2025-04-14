@@ -9,8 +9,8 @@ import { ThemeToggle } from "@/components/theme-toggle";
 const bricolageFont = Bricolage_Grotesque({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "My personal website by pietrodev07",
-  description: "My personal website by pietrodev07",
+  title: "pietrodev07",
+  description: "pietrodev07's personal website",
 };
 
 export default function RootLayout({ children }: PropsWithChildren) {
