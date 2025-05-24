@@ -1,10 +1,15 @@
-import { Button } from "@/components/ui/button";
+import { SectionSeparator } from "@/components/atoms/separator";
+import { HeaderSection } from "@/components/sections/header-section";
+import { SocialLinksSection } from "@/components/sections/links-section";
+import { ProjectsSection } from "@/components/sections/projects-section";
 
-export default async function Home() {
+export default function HomePage() {
   return (
-    <main className="h-svh flex flex-col gap-6 items-center justify-center">
-      <h1 className="font-semibold text-4xl">pietrodev07 website</h1>
-      <Button variant="outline">let&apos;s ship it soon pleaseeeee</Button>
+    <main className="main-container">
+      <HeaderSection />
+      <SocialLinksSection />
+      <SectionSeparator />
+      <ProjectsSection />
     </main>
   );
 }
