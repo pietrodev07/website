@@ -1,7 +1,7 @@
 import { socialLinks } from "@/lib/content/social-links";
 
 const paragraphs = [
-  "I'm a full-stack developer and designer from Italy. I enjoy building open-source projects using technologies like Next.js and React.",
+  "I'm a 17 y/o full-stack developer and designer from Italy. I enjoy building open-source projects using technologies like Next.js and React.",
   "I'm passionate about learning, creating, and designing digital products. I'm currently an high school student, and I'm always looking for new challenges and opportunities to grow my skills and knowledge.",
 ];
 
