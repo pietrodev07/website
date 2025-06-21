@@ -1,10 +1,10 @@
 import "./globals.css";
 import { PropsWithChildren } from "react";
+import { Nunito } from "next/font/google";
 import { metadataLib } from "@/lib/metadata";
-import { MuseoModerno } from "next/font/google";
 import { AnalyticsTracker } from "@/components/tracker";
 
-const font = MuseoModerno({ subsets: ["latin"] });
+const font = Nunito({ subsets: ["latin"] });
 
 export const metadata = metadataLib;
 

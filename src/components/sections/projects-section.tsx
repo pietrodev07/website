@@ -9,7 +9,7 @@ export const ProjectsSection = () => {
             <a
               target="_blank"
               href={project.href}
-              className="font-medium"
+              className="font-bold"
               rel="noopener noreferrer"
             >
               # {project.name}
