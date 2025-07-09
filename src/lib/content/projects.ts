@@ -9,14 +9,14 @@ export const projects = [
     id: "1",
     name: "Twift - Ai Tweet Translator",
     description: projectDescriptions[0],
-    href: "https://github.com/pietrodev07/twift-app",
+    href: "https://twift.vercel.app",
     dates: "2025 - Present",
   },
   {
     id: "2",
     name: "CarbonAI - Ai Carbon Calculator",
     description: projectDescriptions[1],
-    href: "https://github.com/pietrodev07/carbonai-calculator",
+    href: "https://carbonai-calculator.vercel.app",
     dates: "2025 - Present",
   },
   {
